@@ -1,0 +1,43 @@
+#materia {
+    background-color: white;
+    padding: 20px 50px 0 50px;
+}
+
+hr {
+    all: revert;
+}
+
+h1 {
+    font-style: italic;
+    margin: 0;
+}
+
+#sumario {
+    width: 296px;
+    border: 1px solid black;
+}
+
+#sumario > p {
+    margin: 0;
+    padding: 20px;
+    background-color: #70C3FF;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    font-size: 32px;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+    text-indent: 20px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}

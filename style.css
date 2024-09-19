@@ -1,0 +1,57 @@
+body {
+    background-color: #EFEFEF;
+    font-family: 'Montserrat';
+    margin: 20px;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 24px;
+    text-indent: 1.5rem;
+}
+
+a {
+    font-size: 24px;
+    color: #000AFF;
+}
+
+ol {
+    font-size: 24px;
+    color: #000AFF;
+}
+
+hr {
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 240px;
+}
+
+.topicos {
+    margin: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topicos > a {
+    color: black;
+}
+
+li > p{
+    text-indent: 24px;
+    color: black;
+    margin-top: 0;
+}
